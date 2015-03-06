@@ -1,0 +1,46 @@
+{
+  "name": "slush-react-fluxxor",
+  "version": "0.0.1",
+  "description": "Slush generator with React+Fluxxor",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Devlandia/slush-react-fluxxor.git"
+  },
+  "keywords": [
+    "slush",
+    "slushgenerator",
+    "generator",
+    "React",
+    "Flux",
+    "fluxxor",
+    "spa",
+    "single-page-application",
+    "scaffold"
+  ],
+  "dependencies": {
+    "gulp":               "^3.8.11",
+    "mkdirp":             "^0.5.0",
+    "inquirer":           "^0.8.0",
+    "gulp-rename":        "^1.2.0",
+    "gulp-install":       "^0.2.0",
+    "gulp-template":      "^3.0.0",
+    "gulp-conflict":      "^0.3.0",
+    "underscore.string":  "^3.0.3"
+  },
+  "peerDependencies": {
+    "slush": ">=1.1.1"
+  },
+  "author": {
+    "name": "Pedro Martos",
+    "email": "pedro@devlandia.net"
+  },
+  "main": "slushfile.js",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devlandia/slush-react-fluxxor/issues"
+  },
+  "homepage": "https://github.com/Devlandia/slush-react-fluxxor"
+}
