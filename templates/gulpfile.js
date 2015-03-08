@@ -7,7 +7,7 @@ var gulp        = require('gulp'),
     browserify  = require('browserify'),
     browserSync = require('browser-sync');
 
-gulp.task('default', ['server']);
+gulp.task('default', ['compile', 'server']);
 gulp.task('compile', ['browserify', 'html']);
 
 gulp.task('server', function () {
@@ -20,7 +20,7 @@ gulp.task('server', function () {
 });
 
 gulp.task('browserify', function() {
-  browserify('./src/js/app.jsx')
+  browserify('./app/src/app.jsx')
     .transform(reactify)
     .bundle()
     .pipe(source('bundle.js'))
@@ -28,6 +28,6 @@ gulp.task('browserify', function() {
 });
 
 gulp.task('html', function () {
-  gulp.src('src/index.html')
+  gulp.src('./app/index.html')
     .pipe(gulp.dest('build'));
 });

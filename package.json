@@ -1,6 +1,6 @@
 {
   "name": "slush-react-fluxxor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Slush generator with React+Fluxxor",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -38,7 +38,7 @@
     "email": "pedro@devlandia.net"
   },
   "main": "slushfile.js",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Devlandia/slush-react-fluxxor/issues"
   },
